@@ -1,0 +1,136 @@
+             body {
+                /* background: url("../img/content.jpg") no-repeat center center fixed; */
+			    /*			-webkit-background-size: cover; */
+				/*			-moz-background-size: cover; */
+				/*			-o-background-size: cover; */
+				/*			background-size: cover; */
+				background-color: #edf6f5;
+            }
+
+            .preheader {
+                background-color: #edf6f5;
+                height:10px;
+            }
+
+            .header img {
+			/*	height: 100%; */
+				width: 75%;  
+            /*	width: 100vw;   */
+            /*		width: vmax    */
+            /*   display: block; 
+                margin-left: auto; 
+                margin-right: auto */
+            }
+
+            .footer {
+				width: 75%;
+				background-color: #1a203a;
+                margin-top: 50px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: #fff;
+                font-size: .8em;
+                text-align: center;
+				border: #000000 3px groove;
+				margin: auto;
+				border-radius: 0em;
+				padding: .5em;
+				/* box-shadow: 7px 7px 7px #6e6e6e; */
+			}
+
+            .sub-options {
+                margin-left: 40px;
+                margin-top: -5px;
+                display:none;
+            }
+
+            .sub-options+.checkbox {
+                margin-top: -5px;
+            }
+
+            legend {
+                margin-top: -5px;
+                font-family: Helvetica;
+                /*text-transform: uppercase;*/
+                color: #1a203a;
+            }
+
+            #date {
+                cursor: inherit;
+                background-color:inherit;
+                opacity: inherit;
+            }
+
+            .datepicker table tr td.disabled, .datepicker table tr td.disabled:hover {
+                color: #ccc;
+            }
+
+            .required {
+                color: red;
+            }
+
+            .form-control-inline {
+                min-width: 0;
+                max-width: 200px;
+                /* width: auto; */
+                display: inline;
+            }
+
+            label.heading {
+                margin-top: 10px;
+            } 
+
+            div {
+                margin-top: 0px;
+            }
+          
+            .fileinput-filename {
+                width: 80%;
+                height: 100%;
+            }
+
+            .creative-brief {
+                width: 100%;
+                height: 100%;
+                padding: 1.5em;
+            }
+			
+			#border {
+				width: 95%;
+				background-color: #1a203a;
+				/* color: #000000; */
+				border: #000000 3px groove;
+				margin: auto;
+				/* text-align: left; */
+				border-radius: 0em;
+				padding: .5em;
+				/* box-shadow: 7px 7px 7px #6e6e6e; */
+			}
+			#formBorder {
+				width: 95%;
+				background-color: #efefef;
+				color: #000000;
+				border: #000000 3px groove;
+				margin: auto;
+				text-align: left;
+				border-radius: 0em;
+				padding: 1.5em;
+				/* box-shadow: 7px 7px 7px #6e6e6e; */
+			}
+			.textarea {
+				width: 50em;
+				height: 4em;
+			}
+
+.reveal-if-active {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+input[type="radio"]:checked ~ .reveal-if-active,
+input[type="checkbox"]:checked ~ .reveal-if-active {
+  opacity: 1;
+  max-height: 100px; /* little bit of a magic number :( */
+  overflow: visible;
+}
